@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="380db955-9a9d-4ebd-8da7-93f46c4f5122" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/Frag 04.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JsonFiles/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taller1/heatMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taller1/prueba.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Taller1/taller1test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taller1/Exploracion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taller1/MapperP1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Taller1/ReducerP1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Taller1$taller1test.coverage" NAME="taller1test Coverage Results" MODIFIED="1569185477809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Taller1" />
     <SUITE FILE_PATH="coverage/Taller1$heatMap.coverage" NAME="heatMap Coverage Results" MODIFIED="1569175060726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Taller1" />
+    <SUITE FILE_PATH="coverage/Taller1$Exploracion.coverage" NAME="Exploracion Coverage Results" MODIFIED="1569985150291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Taller1" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Taller1/taller1test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="161" column="28" lean-forward="true" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="28" />
+            <state relative-caret-position="900">
+              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -59,14 +58,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Taller1/heatMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="39" column="64" lean-forward="true" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+            <state relative-caret-position="285">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taller1/Exploracion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="82" column="22" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="82" selection-end-column="22" />
+              <folding>
+                <element signature="e#52#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Taller1/MapperP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Taller1/ReducerP1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -89,6 +121,9 @@
         <option value="$PROJECT_DIR$/Taller1/prueba.py" />
         <option value="$PROJECT_DIR$/Taller1/taller1test.py" />
         <option value="$PROJECT_DIR$/Taller1/heatMap.py" />
+        <option value="$PROJECT_DIR$/Taller1/Exploracion.py" />
+        <option value="$PROJECT_DIR$/Taller1/MapperP1.py" />
+        <option value="$PROJECT_DIR$/Taller1/ReducerP1.py" />
       </list>
     </option>
   </component>
@@ -103,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +179,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.taller1test">
+  <component name="RunManager" selected="Python.Exploracion">
+    <configuration name="Exploracion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Taller1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Taller1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Taller1/Exploracion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="heatMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Taller1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,6 +248,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Exploracion" />
         <item itemvalue="Python.taller1test" />
         <item itemvalue="Python.heatMap" />
       </list>
@@ -218,22 +276,33 @@
       <workItem from="1569185748557" duration="791000" />
       <workItem from="1569187618795" duration="1272000" />
       <workItem from="1569190512727" duration="253000" />
+      <workItem from="1569201510593" duration="243000" />
+      <workItem from="1569694897902" duration="611000" />
+      <workItem from="1569697343498" duration="593000" />
+      <workItem from="1569699152203" duration="466000" />
+      <workItem from="1569700978983" duration="542000" />
+      <workItem from="1569702802002" duration="651000" />
+      <workItem from="1569704614406" duration="557000" />
+      <workItem from="1569706427854" duration="600000" />
+      <workItem from="1569708236283" duration="855000" />
+      <workItem from="1569892908504" duration="2860000" />
+      <workItem from="1569982205591" duration="3667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12561000" />
+    <option name="totallyTimeSpent" value="24206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="946" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1996337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290398" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22131148" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22014052" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30796254" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48126465" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -241,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290398" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.14754099" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35362998" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290398" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -330,8 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Taller1/taller1test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="161" column="28" lean-forward="true" selection-start-line="161" selection-start-column="11" selection-end-line="161" selection-end-column="28" />
+        <state relative-caret-position="900">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -340,11 +409,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Taller1/heatMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="39" column="64" lean-forward="true" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+        <state relative-caret-position="285">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="193" column="8" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taller1/point1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taller1/MapperP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taller1/Exploracion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="82" column="22" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="82" selection-end-column="22" />
+          <folding>
+            <element signature="e#52#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Taller1/ReducerP1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
